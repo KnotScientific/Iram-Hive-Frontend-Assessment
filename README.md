@@ -13,11 +13,14 @@ The code resides in the `src` directory.\
 
 # How to use
 Run `npm start` if running locally and open `localhost:3000`. The demo code resides in the App.js file. The \<Dropdown \/> components in that file uses the list from `list.js`.
+
 ## Single Selection Mode
 <img width="336" alt="Screenshot 2023-05-10 at 12 51 59 PM" src="https://github.com/KnotScientific/Iram-Hive-Frontend-Assessment/assets/29667155/b2484461-46b5-4c43-8325-1d7201c8493a">
+For single selection mode, it accepts all the props on the table below. Pass the useState state and setter of type string <code>const [singleValue, setSingleValue] = useState("");</code> as the props `value` and `onSelect` for the \<Dropdown \/> component. The prop `options` accepts the list for the dropdown.
 
 ## Multi Selection Mode
 <img width="397" alt="Screenshot 2023-05-10 at 12 52 14 PM" src="https://github.com/KnotScientific/Iram-Hive-Frontend-Assessment/assets/29667155/f12e6f51-9877-40ed-9f45-5014311a1d52">
+For multi selection mode, it accepts all the props on the table below. Pass the useState state and setter of type string[] <code>const [multiValue, setMultiValue] = useState([]);</code> as the props `value` and `onSelect` for the \<Dropdown \/> component. The prop `options` accepts the list for the dropdown.
 
 ## Props
 Below is a list of props that the \<Dropdown \/> component accepts:
