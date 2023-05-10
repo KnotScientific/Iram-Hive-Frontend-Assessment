@@ -1,4 +1,4 @@
-import Dropdown from "./lib/Dropdown";
+import Dropdown from "../src/lib/Dropdown.tsx";
 import { List } from "./list";
 import { useState } from "react";
 
