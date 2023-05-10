@@ -5,8 +5,19 @@ This is resuable dropdown menu component. It supports:
 - [x] Reusability
 
 # Code structure
-The code resides in the `src` directory.
-`src/
+The code resides in the `src` directory.\
+\
+`src/App.js` contains the demo code for both single and multi selection mode.\
+`src/lib` directory contains the React + Typescript + CSS code for the dropdown menu component.\
+`src/lib/Dropdown.tsx` is the React dropdown menu component file.
+
+# How to use
+Run `npm start` if running locally and open `localhost:3000`. The demo code resides in the App.js file. The \<Dropdown \/> components in that file uses the list from `list.js`.
+## Single Selection Mode
+<img width="336" alt="Screenshot 2023-05-10 at 12 51 59 PM" src="https://github.com/KnotScientific/Iram-Hive-Frontend-Assessment/assets/29667155/b2484461-46b5-4c43-8325-1d7201c8493a">
+
+## Multi Selection Mode
+<img width="397" alt="Screenshot 2023-05-10 at 12 52 14 PM" src="https://github.com/KnotScientific/Iram-Hive-Frontend-Assessment/assets/29667155/f12e6f51-9877-40ed-9f45-5014311a1d52">
 
 ## Props
 Below is a list of props that the \<Dropdown \/> component accepts:
