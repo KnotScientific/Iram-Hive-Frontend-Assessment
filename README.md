@@ -12,7 +12,7 @@ The code resides in the `src` directory.\
 `src/lib/Dropdown.tsx` is the React dropdown menu component file.
 
 # How to use
-Run `npm start` if running locally and open `localhost:3000`. The demo code resides in the App.js file. The \<Dropdown \/> components in that file uses the list from `list.js`.
+Run `npm start` if running locally and open `localhost:3000`. The demo code resides in the App.js file. The \<Dropdown \/> component in that file uses the list from `list.js`.
 
 ## Single Selection Mode
 <img width="336" alt="Screenshot 2023-05-10 at 12 51 59 PM" src="https://github.com/KnotScientific/Iram-Hive-Frontend-Assessment/assets/29667155/b2484461-46b5-4c43-8325-1d7201c8493a">
