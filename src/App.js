@@ -8,8 +8,12 @@ const App = (props) => {
 
   return (
     <div>
-      <p>{singleValue}</p>
+      <p>This is the value from the single selected dropdown {singleValue}</p>
       <Dropdown options={List} value={singleValue} onSelect={setSingleValue} />
+      <p>
+        These are the values from the multi selected dropdown{" "}
+        {multiValue.join(", ")}
+      </p>
       <Dropdown
         options={List}
         value={multiValue}
